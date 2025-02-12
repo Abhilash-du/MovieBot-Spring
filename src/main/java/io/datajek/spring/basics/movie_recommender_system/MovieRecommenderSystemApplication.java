@@ -14,6 +14,7 @@ public class MovieRecommenderSystemApplication {
 		SpringApplication.run(MovieRecommenderSystemApplication.class, args);
 		RecommenderImplementation recommender = new RecommenderImplementation();
 		String[] result = recommender.recommendMovies("Finding Dory");
+		// Printing recommended result
 		System.out.println(Arrays.toString(result));
 	}
 
